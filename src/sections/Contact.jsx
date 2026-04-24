@@ -20,12 +20,12 @@ const Contact = () => {
             setShowAlert(false)
         }, 5000);
     }
-    const hadleSubmit= async(e)=>{
+    const handleSubmit= async(e)=>{
         e.preventDefault();
         setisLoading(true);
         try {
             console.log("form submitted: ", formData)
-            await emailjs.send("service_prm9t8o", "template_hfo63w8", {
+            await emailjs.send("service_er4uszp", "template_hfo63w8", {
                 from_name:formData.name,
                 to_name:"Shriyog",
                 from_email:formData.email,
@@ -56,7 +56,7 @@ const Contact = () => {
                 <h2 className="text-heading">Let's Talk</h2>
                 <p className="font-normal text-neutral-400">Whether you are looking to build a new website, improve your existing platform, or bring a unique project to life, I'm here to help</p>
             </div>
-            <form className="w-full" onSubmit={hadleSubmit}>
+            <form className="w-full" onSubmit={handleSubmit}>
                 <div className="mb-5">
                     <label htmlFor="name" className="field-label">Full Name</label>
                     <input id="name" name="name" type="text" className="field-input field-inupt-focus" placeholder="Shri Punde" autoComplete="name" value={formData.name} onChange={handleChange} required/>

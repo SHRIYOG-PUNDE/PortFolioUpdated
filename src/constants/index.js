@@ -113,43 +113,49 @@ export const myProjects = [
       },
     ],
   },
-  // {
-  //   id: 4,
-  //   title: "C++ Game Engine",
-  //   description:
-  //     "A lightweight C++ game engine designed for 2D and 3D game development.",
-  //   subDescription: [
-  //     "Built a powerful rendering engine using OpenGL and C++.",
-  //     "Developed a physics engine with collision detection and particle effects.",
-  //     "Implemented a scripting system for easy game customization.",
-  //     "Optimized performance with multi-threading and efficient memory management.",
-  //   ],
-  //   href: "",
-  //   logo: "",
-  //   image: "/assets/projects/game-engine.jpg",
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: "C++",
-  //       path: "/assets/logos/cplusplus.svg",
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "C#",
-  //       path: "/assets/logos/csharp.svg",
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "Git",
-  //       path: "/assets/logos/git.svg",
-  //     },
-  //     {
-  //       id: 4,
-  //       name: "Microsoft",
-  //       path: "/assets/logos/microsoft.svg",
-  //     },
-  //   ],
-  // },
+ {
+  id: 4,
+  title: "Expense Tracker Platform",
+  description:
+    "A full-stack expense management application designed to track, analyze, and optimize personal financial data with secure authentication and real-time insights.",
+  subDescription: [
+    "Developed a secure MERN-based platform to manage income and expenses with JWT authentication.",
+    "Implemented interactive financial dashboards using Chart.js for category-wise and monthly expense analysis.",
+    "Engineered backend APIs with Node.js and Express to handle transaction CRUD operations and user data securely.",
+    "Utilized MongoDB Aggregation Pipeline to generate real-time financial insights and summaries.",
+    "Integrated Cloudinary for receipt uploads and Node-Cron for automating recurring transactions like subscriptions and rent.",
+  ],
+  href: "https://github.com/SHRIYOG-PUNDE/EXPENSETRACKER", 
+  logo: "",
+  image: "/assets/projects/expense-tracker.jpg", // update if needed
+  tags: [
+    {
+      id: 1,
+      name: "React.js",
+      path: "/assets/logos/reactLogo.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "/assets/logos/nodejsLogo.svg",
+    },
+    {
+      id: 3,
+      name: "MongoDB",
+      path: "/assets/logos/mongodbLogo.svg",
+    },
+    {
+      id: 4,
+      name: "Chart.js",
+      path: "/assets/logos/Chartjs.svg",
+    },
+    {
+      id: 5,
+      name: "Cloudinary",
+      path: "/assets/logos/Cloudinary.svg",
+    },
+  ],
+},
   // {
   //   id: 5,
   //   title: "WordPress Custom Theme",
@@ -246,38 +252,38 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2024-2025",
+    title: "Software Developer Intern",
+    job: "Python Dev Intern",
+    date: "2025-Mar",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Developed and optimized backend services using Python and Django/Flask, improving API response times by 20%.",
+      "Automated repetitive data processing tasks using Python scripts and libraries like Pandas and NumPy.",
+      "Integrated third-party APIs and handled complex JSON data structures for seamless frontend-backend communication.",
+      "Identified and resolved software bottlenecks through rigorous debugging and unit testing using PyTest.",
+      "Collaborated in an Agile environment, managing version control and code reviews via Git and GitHub.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Analytics Intern",
+    job: "Cognizant",
+    date: "2026",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Leveraged data analytics tools to process large datasets, identifying key trends and business insights for stakeholders.",
+      "Built interactive data visualizations and dashboards to simplify complex analytical findings.",
+      "Cleaned and pre-processed raw data using SQL and Python to ensure high data integrity for modeling.",
+      "Collaborated with cross-functional teams to automate reporting processes, reducing manual effort by 30%.",
+      "Gained hands-on experience with enterprise-level data workflows and cloud-based analytics environments.",
     ],
   },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
+  // {
+  //   title: "Freelance Developer",
+  //   job: "Self-Employed",
+  //   date: "2025-Present",
+  //   contents: [
+  //     "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
+  //     "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+  //   ],
+  // },
 ];
 export const reviews = [
   {

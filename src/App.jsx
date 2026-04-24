@@ -11,11 +11,11 @@ const App = () => {
   return (
     <div className='container mx-auto max-w-7xl'>
       <Navbar />
-      <Hero />
-      <About/>
+      <section id='home'><Hero/></section>
+      <section id='about'><About/></section>
       <Projects/>
-      <Experiences/>
-      <Contact/>
+      <section id='work'><Experiences/></section>
+      <section id='contact'><Contact/></section>
       <Footer/>
       {/* <section className='min-h-screen'></section> */}
       {/* about */}

@@ -23,7 +23,7 @@ function Hero() {
             </Float>
             <Rig/>
           </Suspense>
-          <OrbitControls/>
+          <OrbitControls enableZoom={false}/>
         </Canvas>
       </figure>
     </section>
